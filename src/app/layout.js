@@ -5,8 +5,8 @@ import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
 
 export const metadata = {
-  title: "ALGORA — Your AI art portal",
-  description: "CGMWT JAN 2025 by Codegrid",
+  title: "Algora | Sudo Sapient",
+  description: "CGMWT JAN 2025 by Sudo Sapient",
 };
 
 export default function RootLayout({ children }) {

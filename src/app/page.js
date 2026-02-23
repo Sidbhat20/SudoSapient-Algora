@@ -297,7 +297,7 @@ export default function Home() {
             <div className="case-studies-item case-studies-item-1">
               <div className="container">
                 <h3>Art in the Age of Algorithms</h3>
-                <p className="primary">[ Lumina Horizon — Zara Lee ]</p>
+                <p className="primary">[ Lumina Horizon — Priya Sharma ]</p>
                 <div className="case-studies-item-inner-img">
                   <img
                     src="/images/home/case-study-1.jpeg"
@@ -305,7 +305,7 @@ export default function Home() {
                   />
                 </div>
                 <p>
-                  Zara Lee’s AI-powered installation captivates audiences at the
+                  Priya Sharma’s AI-powered installation captivates audiences at the
                   Global Digital Arts Forum, raising questions about the fusion
                   of human intent and machine precision. The work highlights the
                   limitless potential of AI as a creative partner in the world
@@ -323,7 +323,7 @@ export default function Home() {
             <div className="case-studies-item case-studies-item-2">
               <div className="container">
                 <h3>The Dawn of AI-Driven Fashion</h3>
-                <p className="primary">[ Visionary Threads — Elena Marquez ]</p>
+                <p className="primary">[ Visionary Threads — Ananya Patel ]</p>
                 <div className="case-studies-item-inner-img">
                   <img
                     src="/images/home/case-study-2.jpeg"
@@ -331,7 +331,7 @@ export default function Home() {
                   />
                 </div>
                 <p>
-                  Elena Marquez launches the first fashion magazine curated
+                  Ananya Patel launches the first fashion magazine curated
                   entirely by AI, featuring futuristic designs and concepts that
                   redefine the boundaries of creativity. While widely praised
                   for its innovation, the magazine ignites debates over the role
@@ -349,7 +349,7 @@ export default function Home() {
               <div className="container">
                 <h3>The Rise of AI-Curated Art Awards</h3>
                 <p className="primary">
-                  [ Synthetic Realities — Sophia Armitage ]
+                  [ Synthetic Realities — Meera Iyer ]
                 </p>
                 <div className="case-studies-item-inner-img">
                   <img
@@ -358,7 +358,7 @@ export default function Home() {
                   />
                 </div>
                 <p>
-                  Sophia Armitage’s groundbreaking AI-curated exhibition
+                  Meera Iyer’s groundbreaking AI-curated exhibition
                   highlights the creative potential of machine-generated art.
                   The event features photorealistic works of entirely fictional
                   subjects, sparking a discussion about bias, authenticity, and
@@ -504,3 +504,6 @@ export default function Home() {
     </ReactLenis>
   );
 }
+
+
+
