@@ -8,6 +8,7 @@ import { ReactLenis } from "@studio-freight/react-lenis";
 import Marquee from "@/components/Marquee/Marquee";
 import Footer from "@/components/Footer/Footer";
 import ShuffleText from "@/components/ShuffleText/ShuffleText";
+import { withBasePath } from "@/lib/withBasePath";
 
 import "./archive.css";
 
@@ -75,7 +76,10 @@ const ArchivePage = () => {
               </div>
               <div className="archive-hero-img-wrapper-row">
                 <div className="archive-hero-img">
-                  <img src="/images/carousel/carousel1.jpeg" alt="" />
+                  <img
+                    src={withBasePath("/images/carousel/carousel1.jpeg")}
+                    alt=""
+                  />
                 </div>
               </div>
               <div className="archive-hero-img-wrapper-row">
@@ -91,7 +95,7 @@ const ArchivePage = () => {
           <div className="archive-col source">
             <div className="container">
               <div className="source-img">
-                <img src="/images/home/prompt-eg-1.jpeg" alt="" />
+                <img src={withBasePath("/images/home/prompt-eg-1.jpeg")} alt="" />
               </div>
               <div className="source-content">
                 <p className="primary">[ Original Source ]</p>
@@ -111,14 +115,14 @@ const ArchivePage = () => {
                 <h4>Midjourney</h4>
                 <div className="gallery-images-container">
                   <div className="gallery-row main-img">
-                    <img src="/images/home/prompt-eg-2.jpeg" alt="" />
+                    <img src={withBasePath("/images/home/prompt-eg-2.jpeg")} alt="" />
                   </div>
                   <div className="gallery-row sub-images">
                     <div className="sub-images-col">
-                      <img src="/images/home/prompt-1.jpeg" alt="" />
+                      <img src={withBasePath("/images/home/prompt-1.jpeg")} alt="" />
                     </div>
                     <div className="sub-images-col">
-                      <img src="/images/home/prompt-2.jpeg" alt="" />
+                      <img src={withBasePath("/images/home/prompt-2.jpeg")} alt="" />
                     </div>
                   </div>
                 </div>
@@ -135,7 +139,7 @@ const ArchivePage = () => {
           <div className="container">
             <p className="primary">[ Archive 102 ]</p>
             <div className="next-archive-img">
-              <img src="/images/carousel/carousel2.jpeg" alt="" />
+              <img src={withBasePath("/images/carousel/carousel2.jpeg")} alt="" />
             </div>
             <h2>The Infinite Eternity Flow</h2>
           </div>

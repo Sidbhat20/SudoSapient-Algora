@@ -11,6 +11,7 @@ import Marquee from "@/components/Marquee/Marquee";
 import Footer from "@/components/Footer/Footer";
 import ShuffleText from "@/components/ShuffleText/ShuffleText";
 import GeometricBackground from "@/components/GeometricBackground/GeometricBackground";
+import { withBasePath } from "@/lib/withBasePath";
 import { carouselItems } from "./carouselItems";
 
 import "./home.css";
@@ -182,7 +183,7 @@ export default function Home() {
       <div className="app" ref={container}>
         <section className="hero">
           <div className="hero-img">
-            <img src="/images/home/hero.jpeg" alt="" />
+            <img src={withBasePath("/images/home/hero.jpeg")} alt="" />
           </div>
           <div className="hero-img-overlay"></div>
           <div className="hero-img-gradient"></div>
@@ -194,7 +195,10 @@ export default function Home() {
               </div>
               <div className="hero-copy-col">
                 <div className="hero-icon">
-                  <img src="/images/home/hero-abstract-icon.png" alt="" />
+                  <img
+                    src={withBasePath("/images/home/hero-abstract-icon.png")}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -239,7 +243,10 @@ export default function Home() {
                   <div className="prompt-example-results">
                     <div className="prompt-example-result-item">
                       <div className="prompt-example-result-item-img">
-                        <img src="/images/home/prompt-1.jpeg" alt="" />
+                        <img
+                          src={withBasePath("/images/home/prompt-1.jpeg")}
+                          alt=""
+                        />
                         <div className="hero-img-overlay"></div>
                       </div>
                       <div className="prompt-example-result-item-title">
@@ -248,7 +255,10 @@ export default function Home() {
                     </div>
                     <div className="prompt-example-result-item">
                       <div className="prompt-example-result-item-img">
-                        <img src="/images/home/prompt-2.jpeg" alt="" />
+                        <img
+                          src={withBasePath("/images/home/prompt-2.jpeg")}
+                          alt=""
+                        />
                         <div className="hero-img-overlay"></div>
                       </div>
                       <div className="prompt-example-result-item-title">
@@ -300,7 +310,7 @@ export default function Home() {
                 <p className="primary">[ Lumina Horizon — Priya Sharma ]</p>
                 <div className="case-studies-item-inner-img">
                   <img
-                    src="/images/home/case-study-1.jpeg"
+                    src={withBasePath("/images/home/case-study-1.jpeg")}
                     alt="Futuristic AI-generated art"
                   />
                 </div>
@@ -326,7 +336,7 @@ export default function Home() {
                 <p className="primary">[ Visionary Threads — Ananya Patel ]</p>
                 <div className="case-studies-item-inner-img">
                   <img
-                    src="/images/home/case-study-2.jpeg"
+                    src={withBasePath("/images/home/case-study-2.jpeg")}
                     alt="AI-driven fashion design showcase"
                   />
                 </div>
@@ -353,7 +363,7 @@ export default function Home() {
                 </p>
                 <div className="case-studies-item-inner-img">
                   <img
-                    src="/images/home/case-study-3.jpeg"
+                    src={withBasePath("/images/home/case-study-3.jpeg")}
                     alt="AI-curated artwork showcase"
                   />
                 </div>
@@ -375,7 +385,7 @@ export default function Home() {
           </div>
           <div className="case-studies-items-images col">
             <div className="case-studies-img case-studies-img-1">
-              <img src="/images/home/case-study-1.jpeg" alt="" />
+              <img src={withBasePath("/images/home/case-study-1.jpeg")} alt="" />
               <div className="hero-img-overlay"></div>
               <div className="case-studies-img-link">
                 <Link href="/archive">
@@ -387,7 +397,7 @@ export default function Home() {
               </div>
             </div>
             <div className="case-studies-img case-studies-img-2">
-              <img src="/images/home/case-study-2.jpeg" alt="" />
+              <img src={withBasePath("/images/home/case-study-2.jpeg")} alt="" />
               <div className="hero-img-overlay"></div>
               <div className="case-studies-img-link">
                 <Link href="/archive">
@@ -399,7 +409,7 @@ export default function Home() {
               </div>
             </div>
             <div className="case-studies-img case-studies-img-3">
-              <img src="/images/home/case-study-3.jpeg" alt="" />
+              <img src={withBasePath("/images/home/case-study-3.jpeg")} alt="" />
               <div className="hero-img-overlay"></div>
               <div className="case-studies-img-link">
                 <Link href="/archive">
